@@ -55,16 +55,18 @@ Response body:
 
 ``` typescript
 type GetFfernFriendResponse = {
-  firstName: string;
-  lastName: string;
-  addressLineOne: string;
+  id: string;
+  firstName?: string;
+  lastName?: string;
+  addressLineOne?: string;
   addressLineTwo?: string;
-  city: string;
-  postcode: string;
-  stateOrCounty: string;
-  country: "US" | "NL" | "GB";
-  profileImageUrl: string;
-  subscribedAt: number; // UNIX timestamp 
+  city?: string;
+  postcode?: string;
+  stateOrCounty?: string;
+  country?: "US" | "NL" | "GB";
+  subscribedAt?: number; // UNIX timestamp
+  createdAt: number; // UNIX timestamp
+  updatedAt?: number; // UNIX timestamp
 }
 ```
 
@@ -93,6 +95,7 @@ Responses:
 
 ``` typescript
 type UpdateFfernFriendsSuccessResponse = {
+  id: string;
   firstName: string;
   lastName: string;
   addressLineOne: string;
@@ -129,7 +132,7 @@ After you are done, send us the hosted URL, and a link to the repository. Niall 
 
 We will then go through the code with you.
 
-If you have any questions, reach out to either Owen (owen@ffern.co) or Niall (niall@ffern.co).
+If you have any questions, or are blocked in any way, reach out to either Owen (owen@ffern.co) or Niall (niall@ffern.co).
 
 
  
