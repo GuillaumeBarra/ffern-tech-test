@@ -48,8 +48,8 @@ Password: iloveauthentication
 The endpoints are:  
 
 Request type: GET  
-Base Url: https://ffern-custodian.vercel.app  
-Endpoint: /ffern-friends/[ffern-friend-id]  
+Base Url: https://ffern-custodian.vercel.app    
+Endpoint: /api/ffern-friends/[ffern-friend-id]  
 
 Response body:  
 
@@ -70,7 +70,7 @@ type GetFfernFriendResponse = {
 
 Request type: POST  
 Base Url: https://ffern-custodian.vercel.app  
-Endpoint: /ffern-friends/[ffern-friend-id]  
+Endpoint: /api/ffern-friends/[ffern-friend-id]  
 
 Expected request body:
 
