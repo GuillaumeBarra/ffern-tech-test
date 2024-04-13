@@ -1,6 +1,8 @@
 # Frontend Technical Test
 
-The purpose of this technical test is to assess your ability as a frontend developer. Finishing the remit is not required — see where you get to with the time that you have.
+The purpose of this technical test is to assess your ability as a frontend developer. 
+
+Finishing is not required — see where you get to with the time that you have.
 
 ## The Remit
 
@@ -10,11 +12,12 @@ You are building the page the Ffern Friends link directs to.
 
 ### Design Requirements
 
-[The deisgn file prepared by our deisgner is here.](https://www.figma.com/file/GXvrhMOyMYUw8vT92aq7PX/Tech-Test-for-Ffern-Frontend-Dev?type=design&node-id=0%3A1&mode=design&t=OO1avfvkYfGPisWq-1).
+[The deisgn file prepared by our deisgner is here.](https://www.figma.com/file/GXvrhMOyMYUw8vT92aq7PX/Tech-Test-for-Ffern-Frontend-Dev?type=design&node-id=0%3A1&mode=design&t=OO1avfvkYfGPisWq-1)
 
 - Implement the designs on the file prepared by the deisgner.
 - Focus on mobile. If you have time, make it desktop friendly.
 - Implement hover, active, and focus states for the relevant components.
+- If you have time, add some thoughtful animations. 
 - Wow us with your css jazz. 
 
 ### Technical Requirements
@@ -22,28 +25,29 @@ You are building the page the Ffern Friends link directs to.
 - Fork this respository and create a fresh project using either Gatsby or Next. 
 - Typescript is not essential, but strongly preferred.
 - If using typescript, use Zod to type any data structures that cannot be statically typed.
-- Use React Query for data fetching and requests, if possible.
-- Use tailwind to style React components, if possible.
+- Use React Query for data fetching and requests, if you feel comfortable doing so.
+- Use tailwind to style React components, if you feel comfortable doing so.
 - Gracefully handle errors related to data fetching and form submission.
 - The implementation should only use features supported by iOS 15.4 and above.
-- Host the page on Vercel.  
+- Currently, there is only one Ffern Friend. The id is siobhan-1234.
+- Host the site on Vercel.
 
 #### API
 
-All endpoints use Basic Authentication. 
+All endpoints use Basic Authentication.  
 
-The credentials required to authorise access are:
+The credentials required to authorise access are:  
 
-Username: ffern-tech-test
-Password: iloveauthentication 
+Username: ffern-tech-test  
+Password: iloveauthentication  
 
-The endpoints are:
+The endpoints are:  
 
-Request type: GET
-Base Url: https://ffern-custodian.vercel.app
-Endpoint: /ffern-friends/[ffern-friend-id]
+Request type: GET  
+Base Url: https://ffern-custodian.vercel.app  
+Endpoint: /ffern-friends/[ffern-friend-id]  
 
-Response body:
+Response body:  
 
 ``` typescript
 type GetFfernFriendResponse = {
@@ -60,9 +64,9 @@ type GetFfernFriendResponse = {
 }
 ```
 
-Request type: POST
-Base Url: https://ffern-custodian.vercel.app
-Endpoint: /ffern-friends/[ffern-friend-id]
+Request type: POST  
+Base Url: https://ffern-custodian.vercel.app  
+Endpoint: /ffern-friends/[ffern-friend-id]  
 
 Expected request body:
 
@@ -108,7 +112,7 @@ type UpdateFfernFriendsErrorResponse = {
 }
 ```
 
-Be warned! The developers who implemented the endpoint were a shady lot. It is a little... buggy. Make sure to verify responses before consuming them in your application.
+Be warned! The developers who implemented the endpoint were a shady lot. It is a little... buggy. Make sure to validate responses before consuming them in your application.
 
 
 ## Final Remarks
