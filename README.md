@@ -32,7 +32,9 @@ You are building the page the Ffern Friends link directs to.
 - Currently, there is only one Ffern Friend. The id is siobhan-1234.
 - Host the site on Vercel.
 
-#### API
+### API
+
+#### Authentication 
 
 All endpoints use Basic Authentication.  
 
@@ -40,6 +42,8 @@ The credentials required to authorise access are:
 
 Username: ffern-tech-test  
 Password: iloveauthentication  
+
+#### Endpoints 
 
 The endpoints are:  
 
@@ -111,6 +115,8 @@ type UpdateFfernFriendsErrorResponse = {
   message: string;
 }
 ```
+
+#### A Warning
 
 Be warned! The developers who implemented the endpoint were a shady lot. It is a little... buggy. Make sure to validate responses before consuming them in your application.
 
