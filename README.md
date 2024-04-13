@@ -29,10 +29,13 @@ You are building the page the Ffern Friends link directs to.
 - Use tailwind to style React components, if you feel comfortable doing so.
 - Gracefully handle errors related to data fetching and form submission.
 - The implementation should only use features supported by iOS 15.4 and above.
-- Currently, there is only one Ffern Friend. The id is siobhan-1234.
 - Host the site on Vercel.
 
 ### API
+
+Please note: this is a mock api — there is no database. So don't be surprised if GET requests don't reflect POST requests.
+
+Currently, there is only one Ffern Friend. The id is siobhan-1234.
 
 #### Authentication 
 
@@ -47,7 +50,7 @@ Password: iloveauthentication
 
 The endpoints are:  
 
-Request type: GET  
+Request method: GET  
 Base Url: https://ffern-custodian.vercel.app    
 Endpoint: /api/ffern-friends/[ffern-friend-id]  
 
@@ -70,7 +73,7 @@ type GetFfernFriendResponse = {
 }
 ```
 
-Request type: POST  
+Request method: POST  
 Base Url: https://ffern-custodian.vercel.app  
 Endpoint: /api/ffern-friends/[ffern-friend-id]  
 
@@ -135,6 +138,6 @@ We will then go through the code with you.
 If you have any questions, or are blocked in any way, reach out to either Owen (owen@ffern.co) or Niall (niall@ffern.co).
 
 
- 
+
 
 
