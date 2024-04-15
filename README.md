@@ -22,7 +22,7 @@ You are building the page the Ffern Friends link directs to.
 
 ### Technical Requirements
 
-- Fork this respository and create a fresh project using either Gatsby or Next. 
+- Clone this respository and create a fresh project using either Gatsby or Next. 
 - Typescript is not essential, but strongly preferred.
 - If using typescript, use Zod to type any data structures that cannot be statically typed.
 - Use React Query for data fetching and requests, if you feel comfortable doing so.
