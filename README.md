@@ -6,7 +6,7 @@ Finishing is not required — see where you get to with the time that you have.
 
 ## The Remit
 
-Ffern is launching an influencer programme called "Ffern Friends". Ffern friends are sent links that invite them to join the waiting list. The page the link directs to allows Ffern Friends to join the ledger without joining the waiting list. To add a Ffern Friend to the ledger, we need to collect their shipping information. 
+Ffern is launching an influencer programme called "Ffern Friends". Ffern friends are sent links that allow them to join the ledger without joining the waiting list. To add a Ffern Friend to the ledger, we need to collect their shipping information. 
 
 You are building the page the Ffern Friends link directs to.
 
@@ -22,7 +22,7 @@ You are building the page the Ffern Friends link directs to.
 
 ### Technical Requirements
 
-- Clone this respository and create a fresh project using either Gatsby or Next. 
+- Fork this respository and create a fresh project using either Gatsby or Next. 
 - Typescript is not essential, but strongly preferred.
 - If using typescript, use Zod to type any data structures that cannot be statically typed.
 - Use React Query for data fetching and requests, if you feel comfortable doing so.
