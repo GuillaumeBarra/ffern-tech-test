@@ -12,7 +12,7 @@ You are building the page the Ffern Friends link directs to.
 
 ### Design Requirements
 
-[The deisgn file prepared by our deisgner is here.](https://www.figma.com/file/GXvrhMOyMYUw8vT92aq7PX/Tech-Test-for-Ffern-Frontend-Dev?type=design&node-id=0%3A1&mode=design&t=OO1avfvkYfGPisWq-1)
+[The design file prepared by our deisgner is here.](https://www.figma.com/file/GXvrhMOyMYUw8vT92aq7PX/Tech-Test-for-Ffern-Frontend-Dev?type=design&node-id=0%3A1&mode=design&t=OO1avfvkYfGPisWq-1)
 
 - Implement the designs on the file prepared by the deisgner.
 - Focus on mobile. If you have time, make it desktop friendly.
