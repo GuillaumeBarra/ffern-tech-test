@@ -76,6 +76,7 @@ export const CardForm = ({ ffernFriend, submitData }: FormProps) => {
             setIsSubmitSuccess(true);
             form.reset();
           } catch (error) {
+            form.reset()
             setIsSubmitError(true);
           } finally {
             setIsLoading(false);
@@ -186,7 +187,8 @@ export const CardForm = ({ ffernFriend, submitData }: FormProps) => {
                       </FormControl>
                     </FormItem>
                   )} /></>
-          )}
+              )}
+              {isSubmitError && <div className="text-errorDark">An error occured submitting the form! Please try again</div>}
             {isSubmitSuccess ? (
               <SuccessToast />
             ) : (
